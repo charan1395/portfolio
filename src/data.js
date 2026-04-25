@@ -195,57 +195,33 @@ export const projects = [
     type: 'Gen AI',
     title: 'LLM Fine-Tuning Pipeline',
     description:
-      'End-to-end LoRA / QLoRA fine-tuning pipeline for adapting foundation models to domain-specific vocabulary. Includes data prep, training, evaluation (BLEU/ROUGE), and deployment.',
-    tech: ['PyTorch', 'Transformers', 'PEFT', 'LoRA', 'QLoRA', 'AWS SageMaker'],
+      'Production-ready LoRA / QLoRA fine-tuning pipeline with domain adaptation, evaluation metrics, and SageMaker deployment. Adapts foundation models for specialized financial and clinical vocabularies.',
+    tech: ['PyTorch', 'Transformers', 'PEFT', 'LoRA', 'QLoRA', 'AWS SageMaker', 'MLflow'],
     github: 'https://github.com/charan1395/LLM-FineTuning-Pipeline',
+  },
+  {
+    type: 'Gen AI',
+    title: 'Advisor Onboarding Intelligence',
+    description:
+      '10-agent LangGraph pipeline that automates wealth-advisory client onboarding — produces a fully-sourced advisor brief in under 3 minutes via multi-agent document intelligence.',
+    tech: ['LangGraph', 'LangChain', 'GPT-4', 'FastAPI', 'Multi-Agent'],
+    github: 'https://github.com/charan1395/advisor-onboarding-intelligence',
   },
   {
     type: 'Gen AI',
     title: 'Pitchbook Automation',
     description:
-      'GenAI-powered pitchbook automation tool — parses uploaded financial decks, extracts metrics, and generates analyst-style narratives using GPT-4 and structured prompt templates.',
-    tech: ['LangChain', 'GPT-4', 'OCR', 'PyMuPDF', 'Streamlit'],
+      'Automated pitchbook generation pipeline — parses financial decks, extracts metrics, and generates analyst-style narratives using GPT-4 and structured prompt templates.',
+    tech: ['Python', 'LangChain', 'GPT-4', 'OCR', 'Streamlit'],
     github: 'https://github.com/charan1395/Pitchbook-Automation',
-  },
-  {
-    type: 'Gen AI',
-    title: 'PDF Parser (parsemypdf)',
-    description:
-      'Document intelligence utility that extracts structured data from messy PDFs — combines OCR, layout analysis, and LLM-based field extraction with field-level validation.',
-    tech: ['Python', 'AWS Textract', 'Tesseract', 'LangChain', 'FastAPI'],
-    github: 'https://github.com/charan1395/parsemypdf',
-  },
-  {
-    type: 'Gen AI',
-    title: 'RAG App on AWS',
-    description:
-      'Cloud-native RAG application deployed on AWS — uses Bedrock for inference, OpenSearch for vector retrieval, and Lambda for serverless query routing.',
-    tech: ['AWS Bedrock', 'OpenSearch', 'Lambda', 'Python', 'Boto3'],
-    github: 'https://github.com/charan1395/rag-app-on-aws',
-  },
-  {
-    type: 'Gen AI',
-    title: 'Multi-Agents App on AWS',
-    description:
-      'Cloud-deployed multi-agent application — agents collaborate on AWS Lambda, share state via DynamoDB, and stream responses through API Gateway.',
-    tech: ['AWS Lambda', 'DynamoDB', 'AutoGen', 'API Gateway', 'Python'],
-    github: 'https://github.com/charan1395/multi-agents-app-on-aws',
   },
   {
     type: 'Gen AI',
     title: 'Resume Editor',
     description:
       'AI-powered resume assistant — analyzes job descriptions, suggests targeted edits, and rewrites bullet points using LLM-driven keyword optimization.',
-    tech: ['React', 'OpenAI', 'LangChain', 'Node.js'],
+    tech: ['OpenAI', 'LangChain', 'Python'],
     github: 'https://github.com/charan1395/resume-editor',
-  },
-  {
-    type: 'Gen AI',
-    title: 'Advisor Onboarding Intelligence',
-    description:
-      'Workflow automation system for financial advisor onboarding — uses LLMs to extract entities from forms, validate compliance fields, and route exceptions for review.',
-    tech: ['LangChain', 'GPT-4', 'FastAPI', 'PostgreSQL'],
-    github: 'https://github.com/charan1395/advisor-onboarding-intelligence',
   },
   {
     type: 'Data Science',
