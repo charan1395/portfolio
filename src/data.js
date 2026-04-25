@@ -224,6 +224,38 @@ export const projects = [
     github: 'https://github.com/charan1395/resume-editor',
   },
   {
+    type: 'Gen AI',
+    title: 'RAG App on AWS — Financial Domain',
+    description:
+      'Customized full-stack RAG application on AWS — adapted retrieval pipelines and prompt templates to operate over financial document corpora. Terraform-managed infrastructure with Bedrock-style inference and authenticated UI.',
+    tech: ['AWS', 'Terraform', 'RAG', 'Streamlit', 'Python'],
+    github: 'https://github.com/charan1395/rag-app-on-aws',
+  },
+  {
+    type: 'Gen AI',
+    title: 'Multi-Agents App on AWS — Financial Reports',
+    description:
+      'Customized 4-agent collaborative system on AWS Bedrock AgentCore — agents research, analyze, and write financial reports end-to-end. Adapted agent prompts and workflows for financial domain knowledge.',
+    tech: ['AWS Bedrock', 'Multi-Agent', 'AgentCore', 'Python'],
+    github: 'https://github.com/charan1395/multi-agents-app-on-aws',
+  },
+  {
+    type: 'Gen AI',
+    title: 'PDF Parsing Library — Financial Docs',
+    description:
+      'Customized document parsing toolkit — applied OCR, table extraction, and LLM-based field extraction (Claude, OpenAI, Gemini, LLaMA-Vision) to financial document workflows. Compared parsing strategies across docling, pdfplumber, PyMuPDF, and unstructured-io.',
+    tech: ['OCR', 'LLM Vision', 'Docling', 'PyMuPDF', 'Python'],
+    github: 'https://github.com/charan1395/parsemypdf',
+  },
+  {
+    type: 'Gen AI',
+    title: 'Generative AI — Financial Use Cases',
+    description:
+      'Comprehensive GenAI knowledge base customized with financial-domain projects, use cases, and interview prep — covers RAG, agents, fine-tuning, evaluation, and production deployment patterns.',
+    tech: ['GenAI', 'RAG', 'Agents', 'Fine-Tuning'],
+    github: 'https://github.com/charan1395/generative-ai',
+  },
+  {
     type: 'Data Science',
     title: 'Stock Forecasting & Portfolio Optimization',
     description:
